@@ -20,9 +20,9 @@ public class LoginTest {
     @Test
     public void testValidLogin() {
         loginSteps.navigateToLoginPage();
-        loginSteps.setCredentials("cosmin@fasttrackit.org", "123456");
+        loginSteps.setCredentials("dorel_c@mailinator.com", "123456789");
         loginSteps.clickLogin();
-        loginSteps.checkLoggedIn("Hello, Hai C' Am Schimbat La Loc (Merry Christams)!");
+        loginSteps.checkLoggedIn("Hello, Dorel Dorel Cristurean!");
     }
 
     @Test

@@ -22,12 +22,13 @@ public class CartTest {
 
     @Test
     public void addToCart() {
-        loginSteps.login(Constants.USER_EMAIL,Constants.USER_PASSWORD,Constants.USER_NAME);
+        loginSteps.login("dorel_c@mailinator.com","123456789","Hello, Dorel Dorel Cristurean!");
         cartSteps.addfirstproduct();
         cartSteps.addSecondProduct();
         cartSteps.addThirdProduct();
         cartSteps.getvalues();
         cartSteps.compare();
+        cartSteps.emptyCart();
 
 
     }

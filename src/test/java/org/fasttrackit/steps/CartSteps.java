@@ -53,7 +53,10 @@ public class CartSteps {
             Assert.assertEquals(cartPage.sum(),cartPage.gettotalprice());
         }
 
-
+@Step
+    public void emptyCart(){
+        cartPage.clickemptycart();
+}
     }
 
 

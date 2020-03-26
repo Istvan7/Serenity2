@@ -36,6 +36,11 @@ public class CartPage extends PageObject {
         return getfirstprice()+getsecondprice()+getthirdprice();
 
     }
+    @FindBy(css = "#empty_cart_button > span > span")
+    private WebElementFacade emptyCart;
+    public void clickemptycart(){
+        emptyCart.click();
+    }
 
 
 }

@@ -20,7 +20,7 @@ public class RegisterTest {
     @Test
     public void testregistration(){
         registerSteps.navigateToRegisterPage();
-        registerSteps.complerFields("qwe","rewq","dsa","qwe@rew34574523453456546qq.com","123456","123456");
+        registerSteps.complerFields("qwe","rewq","dsa","qwe@rew3213514345454554574523453456546qq.com","123456","123456");
         registerSteps.checkregister("Thank you for registering with Madison Island.");
 
     }
